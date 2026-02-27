@@ -16,6 +16,8 @@ The dataset is designed to support language-driven, multimodal, and explainable 
 ## Contents
 
 This repository contains:
+dal_pcqa_annotations.csv
+
 
 Each row includes:
 - Point cloud identifier  
@@ -33,7 +35,8 @@ This repository **does not include the original point cloud files**.
 
 To obtain the point clouds, please download them from the official repositories:
 
-- SJTU-PCQA: [Dataset Link Placeholder]  
-- WPC: [Dataset Link Placeholder]  
 
-Please follow the original dataset licenses.
+
+-  SJTU-PCQA: [Paper](https://ieeexplore.ieee.org/document/9238424) [Dataset](https://vision.nju.edu.cn/28/fd/c29466a469245/page.htm)
+- WPC Dataset: [Paper](https://ieeexplore.ieee.org/document/9756929)([Dataset](https://drive.google.com/drive/folders/1dHDqKXgvkUhQdUzT7pJjrJ7zRnceFIkO)
+
