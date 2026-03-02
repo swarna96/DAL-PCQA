@@ -16,7 +16,8 @@ The dataset is designed to support language-driven, multimodal, and explainable 
 ## Contents
 
 This repository contains:
-dal_pcqa_annotations.csv
+Annotations_SJTU.xlsx
+Annotations_WPC.xlsx
 
 
 Each row includes:
