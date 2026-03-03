@@ -16,9 +16,11 @@ The dataset is designed to support language-driven, multimodal, and explainable 
 ## Contents
 
 This repository contains:
-Annotations_SJTU.xlsx
-Annotations_WPC.xlsx
+- Annotations_SJTU.xlsx
 
+- Annotations_WPC.xlsx
+
+- PCQA_test_scripts used to evaluate the dataset
 
 Each row includes:
 - Point cloud identifier  
