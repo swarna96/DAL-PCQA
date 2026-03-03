@@ -1,0 +1,590 @@
+[
+  {
+    "id": "pcqa_test_0",
+    "image": "sjtu_projections/redandblack_0.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_1",
+    "image": "sjtu_projections/redandblack_1.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_2",
+    "image": "sjtu_projections/redandblack_2.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_3",
+    "image": "sjtu_projections/redandblack_3.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_4",
+    "image": "sjtu_projections/redandblack_4.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_5",
+    "image": "sjtu_projections/redandblack_5.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_6",
+    "image": "sjtu_projections/redandblack_6.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_7",
+    "image": "sjtu_projections/redandblack_7.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_8",
+    "image": "sjtu_projections/redandblack_8.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_9",
+    "image": "sjtu_projections/redandblack_9.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_10",
+    "image": "sjtu_projections/redandblack_10.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_11",
+    "image": "sjtu_projections/redandblack_11.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_12",
+    "image": "sjtu_projections/redandblack_12.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_13",
+    "image": "sjtu_projections/redandblack_13.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_14",
+    "image": "sjtu_projections/redandblack_14.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_15",
+    "image": "sjtu_projections/redandblack_15.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_16",
+    "image": "sjtu_projections/redandblack_16.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_17",
+    "image": "sjtu_projections/redandblack_17.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_18",
+    "image": "sjtu_projections/redandblack_18.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_19",
+    "image": "sjtu_projections/redandblack_19.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_20",
+    "image": "sjtu_projections/redandblack_20.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_21",
+    "image": "sjtu_projections/redandblack_21.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_22",
+    "image": "sjtu_projections/redandblack_22.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_23",
+    "image": "sjtu_projections/redandblack_23.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_24",
+    "image": "sjtu_projections/redandblack_24.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_25",
+    "image": "sjtu_projections/redandblack_25.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_26",
+    "image": "sjtu_projections/redandblack_26.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_27",
+    "image": "sjtu_projections/redandblack_27.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_28",
+    "image": "sjtu_projections/redandblack_28.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_29",
+    "image": "sjtu_projections/redandblack_29.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_30",
+    "image": "sjtu_projections/redandblack_30.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_31",
+    "image": "sjtu_projections/redandblack_31.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_32",
+    "image": "sjtu_projections/redandblack_32.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_33",
+    "image": "sjtu_projections/redandblack_33.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_34",
+    "image": "sjtu_projections/redandblack_34.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_35",
+    "image": "sjtu_projections/redandblack_35.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_36",
+    "image": "sjtu_projections/redandblack_36.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_37",
+    "image": "sjtu_projections/redandblack_37.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_38",
+    "image": "sjtu_projections/redandblack_38.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_39",
+    "image": "sjtu_projections/redandblack_39.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_40",
+    "image": "sjtu_projections/redandblack_40.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pcqa_test_41",
+    "image": "sjtu_projections/redandblack_41.ply/0.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the quality of this point cloud."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  }
+]

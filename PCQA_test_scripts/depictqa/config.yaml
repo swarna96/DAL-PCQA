@@ -1,0 +1,99 @@
+# DepictQA PCQA train/infer config (template).
+# Paths can be absolute or relative to DepictQA repo root when running train/infer.
+# Copy to your working dir and set data.root_dir, train.meta_paths_weights, and model paths.
+
+seed: 131
+
+# Data: root_dir = directory containing projection images AND train/test JSON (paths in JSON are relative to root_dir).
+data:
+  root_dir: ../dataset   # or absolute path to your projections dir; put train/test JSON here
+  num_workers: 2
+  train:
+    meta_paths_weights: [
+      [train_pcqa.json, 1],   # under root_dir. If using gen_pcqa_depictqa_json.py --test-split-csv, output is train_multiple_descriptions_pcqa2.json — use that name here or rename.
+    ]
+  infer:
+    meta_path: null
+    dataset_name: null
+    task_name: null
+    batch_size: null
+
+# Model: paths relative to DepictQA repo root when running from there.
+model:
+  vision_encoder_path: ModelZoo/CLIP/clip/ViT-L-14.pt
+  vision_feature_type: local
+  llm_path: ModelZoo/LLM/vicuna/vicuna-7b-v1.5/
+  llm_conv_type: vicuna_v1
+  lora:
+    lora_r: 16
+    lora_alpha: 16
+    lora_dropout: 0.1
+    lora_target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+  delta_path: null   # pretrained checkpoint; set to e.g. ./ckpt/ckpt_pretrained_DQ495K.pt or leave null to train from scratch
+  unique_tag: true
+
+train:
+  epochs: 3
+  warmup_rate: 0.1
+  log_step: 5
+  save_freq_step: 500
+  save_freq_epoch: 1
+  save_dir: ./ckpt/
+  log_dir: ./log/
+  max_tokens: 256
+
+infer:
+  output_prob_id: false
+  output_confidence: true
+  sentence_model: ModelZoo/SentenceTransformers/all-MiniLM-L6-v2
+  answer_dir: ./answers/
+  temperature: 0.0
+  top_p: 0.9
+  max_new_tokens: 400
+
+vision_preprocess:
+  patch_size: 14
+  resize: 224
+  max_size: 672
+  crop_ratio: [0.7, 1.]
+  keep_ratio: true
+
+deepspeed:
+  train_micro_batch_size_per_gpu: 1
+  gradient_accumulation_steps: 8
+  gradient_clipping: 0.5
+  steps_per_print: 1
+  zero_optimization:
+    allgather_bucket_size: 500000000
+    allgather_partitions: true
+    contiguous_gradients: true
+    offload_optimizer:
+      device: cpu
+    stage: 3
+    offload_param:
+      device: cpu
+  optimizer:
+    type: Adam
+    params:
+      betas: [0.9, 0.95]
+      eps: 1.0e-08
+      lr: 5.0e-6
+      weight_decay: 0.001
+  scheduler:
+    type: WarmupDecayLR
+    params:
+      total_num_steps: 1100
+      warmup_max_lr: 5.0e-6
+      warmup_min_lr: 1.0e-08
+      warmup_num_steps: 100
+  fp16:
+    enabled: false
+  bf16:
+    enabled: true
+  activation_checkpointing:
+    partition_activations: true
+    cpu_checkpointing: true
+    contiguous_memory_optimization: false
+    number_checkpoints: null
+    synchronize_checkpoint_boundary: false
+    profile: false
