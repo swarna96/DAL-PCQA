@@ -41,5 +41,5 @@ To obtain the point clouds, please download them from the official repositories:
 
 
 -  SJTU-PCQA: [Paper](https://ieeexplore.ieee.org/document/9238424) [Dataset](https://vision.nju.edu.cn/28/fd/c29466a469245/page.htm)
-- WPC Dataset: [Paper](https://ieeexplore.ieee.org/document/9756929)([Dataset](https://drive.google.com/drive/folders/1dHDqKXgvkUhQdUzT7pJjrJ7zRnceFIkO)
+- WPC Dataset: [Paper](https://ieeexplore.ieee.org/document/9756929) [Dataset](https://drive.google.com/drive/folders/1dHDqKXgvkUhQdUzT7pJjrJ7zRnceFIkO)
 
