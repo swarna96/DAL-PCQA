@@ -31,7 +31,12 @@ Each row includes:
 - Structured natural language description  
 
 ---
+## Huggingface
+This Dataset is also available in Huggingface.
 
+Paper Page: https://huggingface.co/papers/2606.07938
+
+Dataset: https://huggingface.co/datasets/swarnachakraborty96/DAL-PCQA
 ## Important
 
 This repository **does not include the original point cloud files**.
