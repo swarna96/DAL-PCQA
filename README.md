@@ -1,6 +1,6 @@
 # DAL-PCQA
 
-**DAL-PCQA** (Distortion-Aware Language-Annotated Point Cloud Quality Assessment Dataset) provides structured distortion annotations and natural language quality descriptions for point cloud quality assessment.
+Official implementation of the paper [DAL-PCQA: Enabling Distortion-Level and Language-Driven Reasoning for Point Cloud Quality Assessment](https://arxiv.org/abs/2606.07938). The dataset provides structured distortion annotations and natural language quality descriptions for point cloud quality assessment.
 
 Unlike traditional PCQA datasets that only provide Mean Opinion Scores (MOS), DAL-PCQA includes:
 
